@@ -1,0 +1,38 @@
+.bills{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.billionaires {
+ position: relative;
+  margin: 20px 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  
+  &:hover .billionaires__container--info{
+    display: block;
+  }
+
+      &__container{   
+          &--photo{
+          }
+          &--info{
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            padding: 20px;
+            background-color: rgba(75, 75, 75, 0.796);
+          }
+      }
+      &__photo{
+          width: 300px;
+          height: auto;
+
+          
+          
+      }
+  }

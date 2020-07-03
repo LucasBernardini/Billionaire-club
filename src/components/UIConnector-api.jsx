@@ -17,7 +17,7 @@ class UIConnectorAPI extends React.Component {
     user: [],
     currentBill: [
       {
-        person: { name: "Jeff" },
+        person: { name: "Jeff Bezos" },
         finalWorth: 166347.329,
         industries: "Technology",
         rank: 1,

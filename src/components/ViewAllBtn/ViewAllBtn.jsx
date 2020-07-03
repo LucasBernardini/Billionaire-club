@@ -6,7 +6,7 @@ export default function ViewAllBtn() {
   return (
     <div>
       <Link to="/billionaires">
-        <button>VIEW ALL BILLIONAIRES</button>
+        <button className='btn btn--move'><h2>VIEW ALL BILLIONAIRES</h2></button>
       </Link>
     </div>
   );

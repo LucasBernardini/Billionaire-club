@@ -11,3 +11,15 @@
     justify-content: center;
   }
 }
+.input-box{
+  height:48px;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  width: 300px;
+  margin: 10px;
+
+  &:focus{
+    outline: none;
+  }
+}

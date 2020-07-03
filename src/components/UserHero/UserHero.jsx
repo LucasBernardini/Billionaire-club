@@ -23,10 +23,10 @@ export default function UserHero({ user, info, currentBill }) {
   
 
   return (
-    <div className="user-hero">
+    <div className="card">
       <h2>Hey {user.name}!</h2>
       <p>
-        Based on your salary of {user.salary}, it'll take you {difference} years to make as much
+        Based on your salary of ${user.salary}, it'll take you {difference} years to make as much
         as {outputBill.person.name}!
       </p>
       <h3>GOOD LUCK!</h3>

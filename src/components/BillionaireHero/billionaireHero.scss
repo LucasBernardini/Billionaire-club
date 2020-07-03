@@ -1,5 +1,18 @@
-.billionaire-hero{
-  background-color: pink;
+.card{
+  background-color: white;
   height: 400px;
   width: 300px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 5px 10px rgba(255, 255, 255, 0.1);
+  margin: 100px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.stats{
+  padding: 10px 0;
 }
