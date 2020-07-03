@@ -1,0 +1,14 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-evenly;
+
+  align-items: center;
+}
+
+.main-hero{
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
